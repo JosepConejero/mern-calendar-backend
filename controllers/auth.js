@@ -135,6 +135,8 @@ const revalidarToken = async (req, res = response) => {
     // msg: "renew (del token)",
     /*  uid, // uid: uid,
     name, // name: name, */ // esto se puso para comprobar
+    uid,
+    name,
     token,
   });
 };
